@@ -44,7 +44,14 @@
           ><el-menu>
             <el-submenu index="4">
               <template slot="title">
-                <span class="body_title_font">Algorithm</span>
+                <span class="body_title_font"
+                  ><router-link
+                    to="/AlgorithmIntroduction"
+                    class="router-link-active"
+                  >
+                    Algorithm
+                  </router-link></span
+                >
               </template>
               <el-menu-item index="4-1" class="body_font">
                 <router-link to="/DataStructure"> Data Structure </router-link>
@@ -99,7 +106,7 @@
           </el-menu></el-aside
         >
         <el-main>
-          <h2 class="h2_font">算法</h2>
+          <h2 class="h2_font">什么是算法？</h2>
           <p class="font">
             在正式学习算法前，我们先来了解一下什么是算法，我们将从两个方面来了解算法。
           </p>
@@ -133,18 +140,47 @@
             算法可以用于各种不同的任务，比如排序数据、搜索特定项、处理图形问题、执行数学计算等。在设计算法时，通常会考虑以下几个方面的性能指标：
           </p>
           <ul>
-            <li><strong>时间复杂度：</strong>评估算法执行所需时间的量度。
-</li>
-            <li><strong>空间复杂度：</strong>评估算法执行所需存储空间的量度。
-
-</li>
-            <li><strong>效率：</strong>算法完成任务的快慢。
-</li>
-            <li><strong>可读性和可维护性：</strong>算法代码是否容易理解，是否容易修改和调试。
-
-</li>
+            <li><strong>时间复杂度：</strong>评估算法执行所需时间的量度。</li>
+            <li>
+              <strong>空间复杂度：</strong>评估算法执行所需存储空间的量度。
+            </li>
+            <li><strong>效率：</strong>算法完成任务的快慢。</li>
+            <li>
+              <strong>可读性和可维护性：</strong
+              >算法代码是否容易理解，是否容易修改和调试。
+            </li>
           </ul>
-          <p class="font">算法可以用伪代码、流程图或任何一种编程语言来表示。在计算机科学中，研究算法的性能和效率是算法理论（Algorithmics）的一部分，它对于软件开发和解决复杂问题至关重要。</p>
+          <p class="font">
+            算法可以用伪代码、流程图或任何一种编程语言来表示。在计算机科学中，研究算法的性能和效率是算法理论（Algorithmics）的一部分，它对于软件开发和解决复杂问题至关重要。
+          </p>
+          <p class="font">那我们接着看比较通俗的解释。</p>
+          <p class="font">
+            算法简单来说，就是解决问题的一系列步骤。例如做菜菜谱上的一系列步骤，就是一道菜的算法。
+          </p>
+          <h2 class="h2_font">那我们为什么要学习算法呢？</h2>
+          <p class="font">我想从算法的几个作用来谈为什么要学习算法。</p>
+          <ul>
+            <li>
+              <strong>算法是进入大厂的必备能力：</strong
+              >大家所熟知的大厂：腾讯，字节跳动，美团，百度等等都需要有算法能力。
+            </li>
+            <li>
+              <strong>算法是一个高性能高价值系统的必备基础：</strong
+              >一个好的算法在效率，可维护性，可拓展性，准确性，可靠性上都有不错的表现。
+            </li>
+            <li>
+              <strong>算法也是升职加薪的必备能力：</strong
+              >IT这个行业本就是不断变化更新的行业，如果没有扎实的算法基础，就很难成为高阶程序员。
+            </li>
+            <li>
+              <strong>算法的薪资要远远高于开发岗：</strong
+              >大厂的算法岗年薪在40w到无上限，而普通开发岗大概在40w封顶。
+            </li>
+          </ul>
+          <p class="font">
+            如果你早就扎根于IT行业，或者已经学习了很久的IT，那你一定听过一句话，就是：“算法是程序的灵魂。”
+          </p>
+          <span style="color: chartreuse;font-family: Ayuthaya;">本网站均采用leetcode算法题来示例说明。</span>
         </el-main>
       </el-container>
     </el-container>
