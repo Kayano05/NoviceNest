@@ -20,6 +20,11 @@ npm run build
 npm run lint
 ```
 
+### Install Element UI
+```
+npm i element-ui -S
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
