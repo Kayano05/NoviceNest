@@ -47,4 +47,6 @@ This project is a front-end project that utilizes npm (Node Package Manager) Vue
 
 In the root directory of the project, there should be a `node_modules` folder, along with two files named `package-lock.json` and `package.json`, all at the same level as the `nn` folder. Furthermore, within the `nn` folder, there should also be a `node_modules` folder that hasn't been uploaded to the repository.
 
+The nn folder contains the following files and folders: babel.config.js, dist, jsconfig.json, node_modules, package-lock.json, package.json, public, README.md, src, and vue.config.js.
+
 There should be a folder named node_modules, and files named package-lock.json and package.json at the same level as the nn folder. Additionally, within the nn folder, there should be a node_modules folder, which is typically not uploaded to the repository.
