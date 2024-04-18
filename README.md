@@ -1,4 +1,4 @@
-# nn
+# NoviceNest
 
 ## Project setup
 ```
