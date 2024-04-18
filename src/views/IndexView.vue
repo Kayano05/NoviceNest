@@ -3,7 +3,7 @@
     <el-container>
       <el-header style="height: 100px; background-color: rgb(255, 192, 203)">
         <span
-          style="
+            style="
             font-family: Ayuthaya;
             color: aliceblue;
             font-size: 35px;
@@ -16,7 +16,7 @@
           <!-- 致谢 -->
           <span style="margin-left: 400px; font-size: 25px; color: aqua">
             <router-link to="/Acknowledgement" class="router-link-active"
-              >Acknowledgement</router-link
+            >Acknowledgement</router-link
             >
           </span>
           <!-- 未来更新 -->
@@ -28,13 +28,13 @@
           <!-- 更新日志 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/UpdataLog" class="router-link-active"
-              >Updata Log</router-link
+            >Updata Log</router-link
             >
           </span>
           <!-- 关于我们 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/aboutUs" class="router-link-active"
-              >About us</router-link
+            >About us</router-link
             > </span
           ><span> </span>
         </span>
@@ -42,14 +42,15 @@
 
       <el-container>
         <el-aside width="350px"
-          ><el-menu>
+        >
+          <el-menu>
             <el-submenu index="1">
               <template slot="title">
                 <span class="body_title_font">
                   <router-link
-                    to="/pythonIntroductionView"
-                    class="router-link-active"
-                    >Python</router-link
+                      to="/pythonIntroductionView"
+                      class="router-link-active"
+                  >Python</router-link
                   >
                 </span>
               </template>
@@ -68,7 +69,7 @@
                   </router-link>
                 </el-menu-item>
                 <el-menu-item index="1-4" class="body_font">
-                  <router-link to="/webCrawler"> web crawler </router-link>
+                  <router-link to="/webCrawler"> web crawler</router-link>
                 </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
@@ -76,9 +77,9 @@
               <template slot="title">
                 <span class="body_title_font">
                   <router-link
-                    to="/javaIntroductionView"
-                    class="router-link-active"
-                    >Java</router-link
+                      to="/javaIntroductionView"
+                      class="router-link-active"
+                  >Java</router-link
                   >
                 </span>
               </template>
@@ -116,7 +117,8 @@
                 </span>
               </template>
               <el-menu-item index="4-1" class="body_font">
-                <router-link to="/DataStructure"> Data Structure </router-link>
+                <router-link to="/complexityAnalysis"> Complexity analysis
+                </router-link>
               </el-menu-item>
               <el-menu-item index="4-2" class="body_font">
                 <router-link to="/AsymptoticComplexityAnalysis">
@@ -124,29 +126,29 @@
                 </router-link>
               </el-menu-item>
               <el-menu-item index="4-3" class="body_font">
-                <router-link to="/Complexity"> Complexity </router-link>
+                <router-link to="/Complexity"> Complexity</router-link>
               </el-menu-item>
               <el-menu-item index="4-4" class="body_font">
-                <router-link to="/Iteration"> Iteration </router-link>
+                <router-link to="/Iteration"> Iteration</router-link>
               </el-menu-item>
               <el-menu-item index="4-5" class="body_font">
-                <router-link to="/Recursion"> Recursion </router-link>
+                <router-link to="/Recursion"> Recursion</router-link>
               </el-menu-item>
               <el-menu-item index="4-6" class="body_font">
-                <router-link to="/Big-ONotation"> Big-O notation </router-link>
+                <router-link to="/Big-ONotation"> Big-O notation</router-link>
               </el-menu-item>
               <!-- 静态初始化数组，动态初始化数组 -->
               <el-menu-item index="4-7" class="body_font">
-                <router-link to="/Array"> Array </router-link>
+                <router-link to="/Array"> Array</router-link>
               </el-menu-item>
               <el-menu-item index="4-8" class="body_font">
                 <router-link to="/Index">Index</router-link>
               </el-menu-item>
               <el-menu-item index="4-9" class="body_font">
-                <router-link to="/LinkedList"> Linked List </router-link>
+                <router-link to="/LinkedList"> Linked List</router-link>
               </el-menu-item>
               <el-menu-item index="4-10" class="body_font">
-                <router-link to="/Stack"> Stack </router-link>
+                <router-link to="/Stack"> Stack</router-link>
               </el-menu-item>
               <!-- 哈希函数，哈希冲突，负载因子 -->
               <el-menu-item index="4-11" class="body_font">
@@ -171,46 +173,58 @@
               </template>
               <el-menu-item-group>
                 <el-menu-item index="5-1" class="body_font">
-                  <router-link to="/PythonEC"> Python </router-link>
+                  <router-link to="/PythonEC"> Python</router-link>
                 </el-menu-item>
 
                 <el-menu-item index="5-2" class="body_font">Java</el-menu-item>
                 <el-menu-item index="5-3" class="body_font"
-                  >VsCode</el-menu-item
+                >VsCode
+                </el-menu-item
                 >
                 <el-menu-item index="5-4" class="body_font"
-                  >IntelliJ IDEA</el-menu-item
+                >IntelliJ IDEA
+                </el-menu-item
                 >
                 <el-menu-item index="5-5" class="body_font"
-                  >Pycharm</el-menu-item
+                >Pycharm
+                </el-menu-item
                 >
                 <el-menu-item index="5-6" class="body_font"
-                  >GataGrip</el-menu-item
+                >GataGrip
+                </el-menu-item
                 >
                 <el-menu-item index="5-7" class="body_font">Vue</el-menu-item>
                 <el-menu-item index="5-8" class="body_font"
-                  >Element UI</el-menu-item
+                >Element UI
+                </el-menu-item
                 >
                 <el-menu-item index="5-9" class="body_font"
-                  >Nodejs</el-menu-item
+                >Nodejs
+                </el-menu-item
                 >
                 <el-menu-item index="5-10" class="body_font"
-                  >Nginx</el-menu-item
+                >Nginx
+                </el-menu-item
                 >
                 <el-menu-item index="5-11" class="body_font"
-                  >Jupyter NoteBook</el-menu-item
+                >Jupyter NoteBook
+                </el-menu-item
                 >
                 <el-menu-item index="5-12" class="body_font"
-                  >Maven</el-menu-item
+                >Maven
+                </el-menu-item
                 >
                 <el-menu-item index="5-13" class="body_font"
-                  >Springboot web</el-menu-item
+                >Springboot web
+                </el-menu-item
                 >
                 <el-menu-item index="5-14" class="body_font"
-                  >MySql</el-menu-item
+                >MySql
+                </el-menu-item
                 >
                 <el-menu-item index="5-15" class="body_font"
-                  >Mybatis</el-menu-item
+                >Mybatis
+                </el-menu-item
                 >
                 <!-- <el-menu-item index="5-16" class="body_font"
                   >Mybatis</el-menu-item
@@ -236,7 +250,7 @@
             在正式学习编程语言之前，我们有必要先了解一下什么是编程语言。
           </p>
           <span class="h2_font"
-            ><strong>编程与编程语言：</strong>理解计算机世界的桥梁
+          ><strong>编程与编程语言：</strong>理解计算机世界的桥梁
           </span>
           <ul style="font-family: Ayuthaya; line-height: 35px">
             <li>
@@ -328,16 +342,16 @@
           </p>
           <P class="font">
             <a
-              href="https://github.com/Kayano05/NoviceNestWeb"
-              target="_blank"
-              class="router-link-active"
-              style="color: skyblue"
-              >本网站已经在GitHub上开源</a
+                href="https://github.com/Kayano05/NoviceNestWeb"
+                target="_blank"
+                class="router-link-active"
+                style="color: skyblue"
+            >本网站已经在GitHub上开源</a
             >
           </P>
           <p class="font">
             <span
-              >请点击此处查看本网站的<span style="color: red">,版权信息</span>
+            >请点击此处查看本网站的<span style="color: red">,版权信息</span>
               <span style="color: red">,隐私政策</span>
               <span style="color: red">,免责声明。</span>
             </span>

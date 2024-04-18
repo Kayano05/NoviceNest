@@ -110,9 +110,9 @@ const routes = [
     component: () => import('../views/Algorithm/ComplexityView.vue')
   },
   {
-    path: '/DataStructure',
+    path: '/complexityAnalysis',
     name: 'dataStructure',
-    component: () => import('../views/Algorithm/DataStructureView.vue')
+    component: () => import('../views/Algorithm/complexityAnalysisView.vue')
   },
   {
     path: '/GreedyAlgorithm',

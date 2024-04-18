@@ -3,7 +3,7 @@
     <el-container>
       <el-header style="height: 100px; background-color: rgb(255, 192, 203)">
         <span
-          style="
+            style="
             font-family: Ayuthaya;
             color: aliceblue;
             font-size: 35px;
@@ -16,7 +16,7 @@
           <!-- 致谢 -->
           <span style="margin-left: 400px; font-size: 25px; color: aqua">
             <router-link to="/Acknowledgement" class="router-link-active"
-              >Acknowledgement</router-link
+            >Acknowledgement</router-link
             >
           </span>
           <!-- 未来更新 -->
@@ -28,33 +28,34 @@
           <!-- 更新日志 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/UpdataLog" class="router-link-active"
-              >Updata Log</router-link
+            >Updata Log</router-link
             >
           </span>
           <!-- 关于我们 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/aboutUs" class="router-link-active"
-              >About us</router-link
+            >About us</router-link
             > </span
           ><span> </span>
         </span>
       </el-header>
       <el-container>
         <el-aside width="350px"
-          ><el-menu>
+        >
+          <el-menu>
             <el-submenu index="4">
               <template slot="title">
                 <span class="body_title_font"
-                  ><router-link
+                ><router-link
                     to="/AlgorithmIntroduction"
                     class="router-link-active"
-                  >
+                >
                     Algorithm
                   </router-link></span
                 >
               </template>
               <el-menu-item index="4-1" class="body_font">
-                <router-link to="/DataStructure"> Data Structure </router-link>
+                <router-link to="/complexityAnalysis">complexity analysis</router-link>
               </el-menu-item>
               <el-menu-item index="4-2" class="body_font">
                 <router-link to="/AsymptoticComplexityAnalysis">
@@ -62,29 +63,29 @@
                 </router-link>
               </el-menu-item>
               <el-menu-item index="4-3" class="body_font">
-                <router-link to="/Complexity"> Complexity </router-link>
+                <router-link to="/Complexity"> Complexity</router-link>
               </el-menu-item>
               <el-menu-item index="4-4" class="body_font">
-                <router-link to="/Iteration"> Iteration </router-link>
+                <router-link to="/Iteration"> Iteration</router-link>
               </el-menu-item>
               <el-menu-item index="4-5" class="body_font">
-                <router-link to="/Recursion"> Recursion </router-link>
+                <router-link to="/Recursion"> Recursion</router-link>
               </el-menu-item>
               <el-menu-item index="4-6" class="body_font">
-                <router-link to="/Big-ONotation"> Big-O notation </router-link>
+                <router-link to="/Big-ONotation"> Big-O notation</router-link>
               </el-menu-item>
               <!-- 静态初始化数组，动态初始化数组 -->
               <el-menu-item index="4-7" class="body_font">
-                <router-link to="/Array"> Array </router-link>
+                <router-link to="/Array"> Array</router-link>
               </el-menu-item>
               <el-menu-item index="4-8" class="body_font">
                 <router-link to="/Index">Index</router-link>
               </el-menu-item>
               <el-menu-item index="4-9" class="body_font">
-                <router-link to="/LinkedList"> Linked List </router-link>
+                <router-link to="/LinkedList"> Linked List</router-link>
               </el-menu-item>
               <el-menu-item index="4-10" class="body_font">
-                <router-link to="/Stack"> Stack </router-link>
+                <router-link to="/Stack"> Stack</router-link>
               </el-menu-item>
               <!-- 哈希函数，哈希冲突，负载因子 -->
               <el-menu-item index="4-11" class="body_font">
@@ -103,7 +104,8 @@
                 </router-link>
               </el-menu-item>
             </el-submenu>
-          </el-menu></el-aside
+          </el-menu>
+        </el-aside
         >
         <el-main>
           <h2 class="h2_font">什么是算法？</h2>
@@ -180,7 +182,11 @@
           <p class="font">
             如果你早就扎根于IT行业，或者已经学习了很久的IT，那你一定听过一句话，就是：“算法是程序的灵魂。”
           </p>
-          <span style="color: chartreuse;font-family: Ayuthaya;">本网站均采用leetcode算法题来示例说明。</span>
+          <span style="color: chartreuse;font-family: Ayuthaya;">本网站均采用LeetCode算法题来示例说明。</span>
+
+          <span
+              style="font-family: Ayuthaya;color: red">请至少具备一种语言的编程基础，能够简单阅读和编写简单代码。
+            本章节将采取伪代码来演示。</span>
         </el-main>
       </el-container>
     </el-container>
