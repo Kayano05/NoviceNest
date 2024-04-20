@@ -39,6 +39,10 @@ new Vue({
   render: h => h(App)
 });
 ```
+### Install highlight.js
+```
+npm install highlight.js --save
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
