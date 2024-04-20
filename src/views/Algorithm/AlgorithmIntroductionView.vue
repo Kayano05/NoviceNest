@@ -3,7 +3,7 @@
     <el-container>
       <el-header style="height: 100px; background-color: rgb(255, 192, 203)">
         <span
-            style="
+          style="
             font-family: Ayuthaya;
             color: aliceblue;
             font-size: 35px;
@@ -16,7 +16,7 @@
           <!-- 致谢 -->
           <span style="margin-left: 400px; font-size: 25px; color: aqua">
             <router-link to="/Acknowledgement" class="router-link-active"
-            >Acknowledgement</router-link
+              >Acknowledgement</router-link
             >
           </span>
           <!-- 未来更新 -->
@@ -28,34 +28,35 @@
           <!-- 更新日志 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/UpdataLog" class="router-link-active"
-            >Updata Log</router-link
+              >Updata Log</router-link
             >
           </span>
           <!-- 关于我们 -->
           <span style="margin-left: 100px; font-size: 25px; color: aqua">
             <router-link to="/aboutUs" class="router-link-active"
-            >About us</router-link
+              >About us</router-link
             > </span
           ><span> </span>
         </span>
       </el-header>
       <el-container>
-        <el-aside width="350px"
-        >
+        <el-aside width="350px">
           <el-menu>
             <el-submenu index="4">
               <template slot="title">
                 <span class="body_title_font"
-                ><router-link
+                  ><router-link
                     to="/AlgorithmIntroduction"
                     class="router-link-active"
-                >
+                  >
                     Algorithm
                   </router-link></span
                 >
               </template>
               <el-menu-item index="4-1" class="body_font">
-                <router-link to="/complexityAnalysis">complexity analysis</router-link>
+                <router-link to="/complexityAnalysis"
+                  >complexity analysis</router-link
+                >
               </el-menu-item>
               <el-menu-item index="4-2" class="body_font">
                 <router-link to="/AsymptoticComplexityAnalysis">
@@ -105,8 +106,7 @@
               </el-menu-item>
             </el-submenu>
           </el-menu>
-        </el-aside
-        >
+        </el-aside>
         <el-main>
           <h2 class="h2_font">什么是算法？</h2>
           <p class="font">
@@ -182,11 +182,14 @@
           <p class="font">
             如果你早就扎根于IT行业，或者已经学习了很久的IT，那你一定听过一句话，就是：“算法是程序的灵魂。”
           </p>
-          <span style="color: chartreuse;font-family: Ayuthaya;">本网站均采用LeetCode算法题来示例说明。</span>
+          <span style="color: chartreuse; font-family: Ayuthaya"
+            >本网站均采用LeetCode算法题来示例说明。</span
+          >
 
-          <span
-              style="font-family: Ayuthaya;color: red">请至少具备一种语言的编程基础，能够简单阅读和编写简单代码。
-            本章节将采取伪代码来演示。</span>
+          <span style="font-family: Ayuthaya; color: red"
+            >请至少具备一种语言的编程基础，能够简单阅读和编写简单代码。
+            本章节将采取Python，Java两种代码来演示(java代码的函数将采取静态方法)。</span
+          >
         </el-main>
       </el-container>
     </el-container>

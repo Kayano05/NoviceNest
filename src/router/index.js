@@ -238,6 +238,16 @@ const routes = [
     path:'/AlgorithmIntroduction',
     name:'algorithmIntroduction',
     component: () => import('../views/Algorithm/AlgorithmIntroductionView.vue')
+  },
+  {
+    path:'/FUswift',
+    name:'swift',
+    component: () => import('../views/FutureUpdate/swiftView.vue')
+  },
+  {
+    path: '/FUkotlin',
+    name: 'kotlin',
+    component: () => import('../views/FutureUpdate/kotlinView.vue')
   }
 ]
 
