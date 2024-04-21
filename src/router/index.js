@@ -248,6 +248,11 @@ const routes = [
     path: '/FUkotlin',
     name: 'kotlin',
     component: () => import('../views/FutureUpdate/kotlinView.vue')
+  },
+  {
+    path:'/EnvironmentConfigurationIntroduction',
+    name:'environmentConfigurationIntroduction',
+    component: () => import('../views/EnvironmentConfigurationIntroductionView.vue')
   }
 ]
 

@@ -67,6 +67,12 @@
             <router-link to="/aboutUs" class="router-link-active">About Us</router-link>
             页面进行反馈。
           </p>
+          <p class="font">以下是正在或者未来会被添加到网页的内容。</p>
+          <ul class="font">
+            <li><strong>Kotlin:</strong>我们计划在主导航栏中添加kotlin的(1)Basic grammar,(2)App development。</li>
+            <li><strong>Swift:</strong>我们计划在主导航栏中添加Swift的(1)Basic grammar,(2)ios App development。</li>
+            <li><strong>示例代码行数显示:</strong>我们期望在代码示例部分给到读者更好的阅读体验。</li>
+          </ul>
         </el-main>
       </el-container>
     </el-container>
