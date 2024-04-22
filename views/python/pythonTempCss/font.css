@@ -1,0 +1,7 @@
+/* 设置通用字体Ayuthaya,行高和缩进 */
+.font {
+    font-family: Ayuthaya;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 35px;
+  }

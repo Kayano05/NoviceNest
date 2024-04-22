@@ -1,0 +1,4 @@
+.router-link-active {
+    text-decoration: none; /* 去除下划线 */
+    color: inherit; /* 继承父元素的颜色 */
+  }

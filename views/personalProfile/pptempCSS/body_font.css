@@ -1,0 +1,8 @@
+/* 设置副导航栏字体 */
+.body_font {
+    font-size: 16px;
+    font-family: Ayuthaya;
+    background: linear-gradient(to right, #0095ff, #7b00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
